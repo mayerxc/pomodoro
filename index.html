@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock Project</title>
+    
+    <!-- add stylesheet -->
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- add google font -->
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Roboto|Ubuntu" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h2>Pomodoro Clock</h2>
+            <div class="pomodoro">
+                <div class="insidePomo">
+                    <div class="type">Start</div>
+                    <div class="playPause btn btn-primary">
+                        <span class="glyphicon glyphicon-play"></span>
+                    </div>
+                    <div class="clock"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 timerTypes">Work Length
+                    </div>
+                    <div class="col-xs-6 timerTypes">Break Length
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <button class="plus glyphicon glyphicon-arrow-up btn btn-secondary"> </button>
+                        <span class="timer"></span>
+                        <button class="minus glyphicon glyphicon-arrow-down btn btn-secondary"> </button>
+                    </div>
+                    <div class="col-xs-6">
+                        <button class="break-plus glyphicon glyphicon-arrow-up btn btn-secondary"> </button>
+                        <span class="break"></span>
+                        <button class="break-minus glyphicon glyphicon-arrow-down btn btn-secondary"> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>Coded by
+            <a href="http://chrismayer.me" target="_blank">Chris Mayer</a>
+        </footer>
+    </div>
+
+    <!-- add scripts -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
